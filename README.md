@@ -16,6 +16,8 @@ This project is a self-stabilizing spoon designed to help individuals with Parki
 - Connecting wires and breadboard  
 
 ## Circuit Diagram
+![image](https://github.com/user-attachments/assets/b0e4fe88-573c-4da6-940f-6a9491fed6ee)
+
 ![Circuit](images/circuit-diagram.png)
 
 ## How to Run the Project
@@ -28,8 +30,6 @@ This project is a self-stabilizing spoon designed to help individuals with Parki
 3. **Testing:**
    - Power the setup and test the spoon’s stability by simulating tremors.
 
-## Simulation Demo
-![Demo](images/demo.gif)
 
 ## Future Scope
 - Improve the stabilization accuracy by fine-tuning PID values.  
