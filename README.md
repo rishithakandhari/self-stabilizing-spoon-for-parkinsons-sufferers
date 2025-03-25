@@ -24,10 +24,7 @@ This project is a self-stabilizing spoon designed to help individuals with Parki
    - Connect the MPU6050 and servomotors to the Arduino.
    - Upload the code to the Arduino using the Arduino IDE.
 2. **Simulation:**
-   - Open the simulation on Wokwi:  
-   
-![image](https://github.com/user-attachments/assets/843362af-20b2-40a7-85f7-87391687cd64)
-
+   - Open the simulation on Wokwi
 3. **Testing:**
    - Power the setup and test the spoon’s stability by simulating tremors.
 
