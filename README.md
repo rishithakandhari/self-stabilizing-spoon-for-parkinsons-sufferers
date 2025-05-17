@@ -28,6 +28,29 @@ This project is a self-stabilizing spoon designed to help individuals with Parki
 3. **Testing:**
    - Power the setup and test the spoon’s stability by simulating tremors.
 
+## Working
+# Motion Detection:
+- The MPU6050 gyroscope and accelerometer continuously monitor the spoon’s orientation and movement.
+- When a tremor is detected (via changes in pitch, roll, or yaw), the sensor data is sent to the Arduino.
+
+# Data Processing:
+- The Arduino receives the sensor data and processes it in real-time to detect hand tremors.
+- It uses algorithms to determine the magnitude and frequency of the tremor.
+
+# Tremor Analysis:
+- Based on the processed data, the system calculates whether the tremor is significant enough to require correction.
+- The system uses a predefined threshold to decide when to activate the stabilizing motors.
+
+# Stabilization:
+- Servomotors (SG90) connected to the spoon react by moving in the opposite direction of the detected tremor.
+- The motors make small, precise adjustments to counteract the tremor and keep the spoon stable.
+
+# Adjustable Sensitivity:
+- The sensitivity of tremor correction can be adjusted by fine-tuning the PID (Proportional-Integral-Derivative) values in the Arduino code.
+- This adjustment allows users to control how aggressively the spoon responds to minor or major tremors.
+
+# Real-Time Operation:
+- The system operates with minimal delay, providing constant feedback and adjustments to keep the spoon stable during tremors, ensuring a smooth experience for the user.
 
 ## Future Scope
 - Improve the stabilization accuracy by fine-tuning PID values.  
